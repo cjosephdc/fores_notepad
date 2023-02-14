@@ -15,5 +15,5 @@ end)
 
 GetName = function(source) -- EDIT THIS IF YOU DONT USE ESX
     local xPlayer = ESX.GetPlayerFromId(source)
-    return xPlayer.GetName()
+    return xPlayer.getName()
 end
